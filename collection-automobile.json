@@ -1,7 +1,7 @@
 [
         {
         "name": "OrderCollection",
-        "policy": "OR('manufacturerMSP.member', 'wholesalerMSP.member', 'distributerMSP.member', 'marketMSP.member')",
+        "policy": "OR('wholesalerMSP.member', 'distributerMSP.member')",
         "requiredPeerCount": 1,
         "maxPeerCount": 1,
         "blockToLive": 100,
